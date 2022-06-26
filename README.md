@@ -52,7 +52,7 @@ Clone the workshop repository. If cloning a different repositoriy, change the ur
 Make a copy of `Template.md` and rename it. Now let's push the changes to GitHub with the following commands:\
 `git status # shows current branch changes`
 
-You should see the new file path in green (new file added).
+You should see the new file path in red (untracked file).
 Since we want to stage all files, we can use the shortcut:\
 `git add .`
 
