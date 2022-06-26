@@ -9,6 +9,8 @@ I wrote the workshop based on my own preferences. There could be a better way to
 The intent is to help fellow first-time interns to have more confidence using Git at work.
 Hope this helps! 😄
 
+## Contents
+
 - [Getting Started](#getting-started)
   - [Download Git Bash](#download-git-bash)
     - [Windows](#windows)
@@ -17,6 +19,7 @@ Hope this helps! 😄
   - [Workshop Setup](#workshop-setup)
   - [Start the Workshop](#start-the-workshop)
 
+***
 ## Getting Started
 
 Before starting the workshop, follow the next steps to set up the development environment.
