@@ -4,7 +4,7 @@ Imagine you are working on a recipe application. You and your team are responsib
 
 # Dev Tasks
 
-During your workweek, your team will receive some requests to update a Brazilian Carrot Cake recipe (in this same file, below). Follow the next steps to make those changes.
+During your workweek, your team will receive some requests to update a Brazilian Carrot Cake recipe (in the file copied from Template.md). Follow the next steps to make those changes.
 
 I will simulate working with two different people `Ana` and `Banana`.
 
