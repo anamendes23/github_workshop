@@ -60,11 +60,10 @@ Or we can add specific files one at a time:\
 `git add <file path> # here it's helpful to use tab to autofill the path`
 
 With files staged, we can now make a commit:\
-`git commit -m "Copied workshop Template file to MyFile.md"`
+`git commit -m "Copied workshop Template.md file to MyFile.md"`
 
 The `-m` flag is used to add a commit message inline. If you use:\
-`git commit`
-
+`git commit`\
 Then your default editor will open so you can add a message. The most used terminal editors are Vim and Emacs. Here I'll add some Vim commands:
 In Vim, press `i` to start editing. Use arrows to navigate lines.
 
@@ -75,5 +74,5 @@ Now you have a local commit, we have to send the changes to the remote repositor
 
 ## Start the Workshop
 
-Now that you've made a copy, you can use your file to work through the workshop steps.
+Now that you've made a copy, you can use your file to work through the workshop steps in [Instructions.md](./Instructions.md).
 It will be more fun to do this with a friend, but you can also easily learn the commands by yourself.
