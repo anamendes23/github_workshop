@@ -16,7 +16,8 @@ After following those steps, let's get started with checking your environment.
 
 Open Git Bash or native shell and navigate to the project directory (use `cd` to navigate).
 
-Once there, you should see something like this:
+Once there, you should see something like this:\
+<img src="https://user-images.githubusercontent.com/35348652/175826869-4b648117-6959-443d-8c11-b656dee91087.png" alt="cli" width="600"/> 
 
 In `blue` is your current branch, which should be `main` for everyone for now.
 
