@@ -29,12 +29,12 @@ You can have multiple branches at a time! Here we will use a naming convention `
 
 ### Task 1 - implement changes:
 
-If you are working with a teammate, each of you should do a separate change to avoid merge conflict.
+If you are working with a teammate, each of you should do a separate change to avoid merge conflict.\
 If you are working by yourself, try both tasks to see how it works to have multiple branches at a time.
 
 **Ana - Update the carrot quantity from 3 to 4.**
 
-Make sure you are in the main branch. If note, run this command:\
+Make sure you are in the main branch. If not, run this command:\
 `git checkout main`
 
 Before you begin your work, use the `pull` command to get the most updated version of main:\
@@ -44,11 +44,12 @@ Create a new dev branch and check it out:\
 `git checkout -b ana/update-carrot-qty`
 
 The `blue` branch name should now be `ana/update-carrot-qty`.\
-Update `line 11` from 3 to 4 and save your changes.\
+Update `line 11` from 3 to 4 and save your changes.
+
 Now you are ready to make a commit. Let's check our changes:\
 `git status`
 
-You should see your file in `green` because it was changed. Say you changed more files, but they don't belong in this current commit. Using `git status` helps you see if you may have changed something accidentally.\
+You should see your file in `red` because that file was changed, but changes are not staged yet. Say you changed more files, but they don't belong in this current commit. Using `git status` helps you see if you may have changed something accidentally.\
 Another helpful command is:\
 `git diff <file name>`
 
@@ -79,7 +80,7 @@ Update `line 25` from 9x13 to 9x12 and save your changes.\
 Now you are ready to make a commit. Let's check our changes:\
 `git status`
 
-You should see your file in `green` because it was changed. Say you changed more files, but they don't belong in this current commit. Using `git status` helps you see if you may have changed something accidentally.\
+You should see your file in `red` because that file was changed, but changes are not staged yet. Say you changed more files, but they don't belong in this current commit. Using `git status` helps you see if you may have changed something accidentally.\
 Another helpful command is:\
 `git diff <file name>`
 
@@ -207,12 +208,16 @@ Let's say Kitty approved your changes, so you start the merge process:\
 `git checkout <your-branch>`\
 Now when you rebase, you will get a merge conflict:\
 `git rebase -i main`\
-Git provides a few instructions on how to solve the issue. You can stop rebasing, or you can resolve the conflicts and continue.\
-You will see a list of files that have conflict. In this case, open your file in your prefered editor (I'm using vs code) and you should see the conflict areas in the file.
+Git provides a few instructions on how to solve the issue.\
+You can stop rebasing by running:\
+`git rebase --abort`\
+Or you can resolve the conflicts and continue. You will see a list of files that have conflict. In this case, open your file in your prefered editor (I'm using vs code) and you should see the conflict areas in the file.\
+If you are not using an IDE, which will mark the conflict areas for you, search for `<<<<<<< HEAD` and you will find the beginning of the area where the merge occurs.\
+When you find your conflict, you have to decide what change is acceptable. If the changes make the code behave differently, resolve with your team. If the conflict is on simple syntax or implementation order, use your judgment to fix it.
 
-You have to decide what change is acceptable. If the changes make the code behave different, resolve with your team. If the conflict is on simple syntax or implementation order, use your judgment to fix it.
-
-Once fixed, you can commit your change and run:\
+Once fixed, you can commit your change and continue rebasing:\
+`git status`\
+`git add .`\
 `git rebase --continue`
 
 Now that the rebase is completed, you have to update the remote repo:\
@@ -233,3 +238,14 @@ Done!
 
 When your branch has multiple commits, each commit that has a merge conflict has to be resolved when rebasing.\
 That's why it's important to have few commits being merged to main at a time. Trust me, it will get very messy when each of your 10+ commits conflict when rebasing - been there.
+
+## Clean up
+
+After completing the tutorial, make sure to delete all your branches and new files. The repo should contain only:
+
+- Instructions.md
+- LICENSE
+- README.md
+- Template.md
+
+Thanks!
