@@ -1,4 +1,4 @@
-# GitHub Workhop
+# GitHub Workshop
 
 This workshop has the goal to help beginnings to practice most used Git commands using Git Bash.
 
