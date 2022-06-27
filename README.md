@@ -39,10 +39,10 @@ If using either Linux or MacOS, then use the built-in shell. Make sure Git is al
 Before being able to collaborate, Git needs to know the user information (name and email). It is possible to have different configurations for different git repositories, but for now let's use the global configuration.
 
 Open the terminal (shell or Git Bash) and run this command to add user name:\
-`git config --global user.name <your_github_username>`
+`git config --global user.name "<your_github_username>"`
 
 Then run this command to add user email:\
-`git config --global user.email <your_email@mail.com>"`
+`git config --global user.email "<your_email@mail.com>"`
 
 ## Workshop Setup
 
