@@ -46,8 +46,11 @@ Then run this command to add user email:\
 
 ## Workshop Setup
 
-Clone the workshop repository. If cloning a different repositoriy, change the url below.\
-`git clone https://github.com/anamendes23/github_workhop.git`
+If you are a collaborator to this repository, clone it.
+If you are not a collaborator, I suggest you [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository and clone the forked repo from your own GitHub account.\
+To clone a repository, use the following git command:\
+`git clone <repository-url>`\
+[Where do I find my repository url?](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
 
 Make a copy of `Template.md` and rename it. Now let's push the changes to GitHub with the following commands:\
 `git status # shows current branch changes`
