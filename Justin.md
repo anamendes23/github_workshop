@@ -12,7 +12,7 @@ A traditional favorite in my family, Brazilian carrot cake is very different fro
 - 4 eggs
 - 1 cup cooking oil
 - 2 cups white sugar
-- 2 cups all-purpose white flour
+- 1 1/2 cups all-purpose flour (white or whole)
 - 1 tablespoon baking powder
 - 2 tablespoons butter or margarine
 - 1 cup white sugar
