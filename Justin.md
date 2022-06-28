@@ -8,7 +8,7 @@ A traditional favorite in my family, Brazilian carrot cake is very different fro
 
 ### Ingredients
 
-- 3 large carrots, peeled and thinly slices
+- 4 large carrots, peeled and thinly slices
 - 4 eggs
 - 1 cup cooking oil
 - 2 cups white sugar
