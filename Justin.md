@@ -22,7 +22,7 @@ A traditional favorite in my family, Brazilian carrot cake is very different fro
 ### Directions
 
 #### Step 1
-Preheat oven to 350 degrees F (175 degrees C). Lightly grease 9x13 baking dish.
+Preheat oven to 350 degrees F (175 degrees C). Lightly grease 9x12 baking dish.
 
 #### Step 2
 
