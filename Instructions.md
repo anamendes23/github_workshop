@@ -145,7 +145,16 @@ Two branches will fix the same line, but they will write different things. Pract
 Make sure you have the most recent version of main before you begin. Everyone should run the command:\
 `git checkout main # run this if you are not in main`\
 `git pull origin main`
+***
+**STOP AND CHECK**
 
+If you are working by yourself, create both branches at the same time so that you have the same version of the main branch when you create a new branch.\
+To do so, run:\
+`git branch ana/fix-typo`\
+`git branch banana/fix-typo`\
+You will skip the `git checkout -b <branch-name>`command in the next instructions and will use instead:\
+`git checkout <branch-name>`
+***
 **Ana - Update and merge first**
 
 Create a new dev branch and check it out:\
